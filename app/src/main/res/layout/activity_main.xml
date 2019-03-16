@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="3"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:scaleType="centerCrop"
+        android:id="@+id/img_1"
+        android:src="@drawable/adventure" />
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:id="@+id/img_2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/worlds" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:id="@+id/img_3"
+        android:layout_rowWeight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/deadmau5" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:id="@+id/img_4"
+        android:layout_columnWeight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/darkside" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:scaleType="centerCrop"
+        android:id="@+id/img_5"
+        android:layout_rowWeight="1"
+        android:src="@drawable/clarity" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:scaleType="centerCrop"
+        android:id="@+id/img_6"
+        android:layout_rowWeight="1"
+        android:src="@drawable/intense" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:layout_columnWeight="1"
+        android:id="@+id/img_7"
+        android:layout_rowWeight="1"
+        android:src="@drawable/ram" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:id="@+id/img_8"
+        android:src="@drawable/elo" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:id="@+id/img_9"
+        android:scaleType="centerCrop"
+        android:src="@drawable/muse" />
+</GridLayout>
